@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Keer Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <nav>
+    <div class="nav-title">Keer</div>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Welcome to the portfolio of <b>Keer Enterprises</b>, a design-first development company led by a creative mind specializing in UI/UX, software engineering, and web development. Our portfolio combines artistic precision with robust code to deliver seamless digital experiences. At Keer, innovation meets elegance in every interface and system crafted.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="todo">
+      <h3><b>To-Do List</b></h3>
+      <input id="task-input" type="text" placeholder="Enter a task" />
+      <button id="add-task">Add</button>
+      <ul id="task-list"></ul>
+    </div>
+
+    <div class="product-section">
+      <h3><b>My Products</b></h3>
+      <input type="text" id="search" placeholder="Search products..." />
+      <div class="container-wrapper">
+        <div class="filters">
+          <label><input type="checkbox" value="electronics" /> Electronics</label>
+          <label><input type="checkbox" value="clothing" /> Clothing</label>
+          <label><input type="checkbox" value="books" /> Books</label>
+          <label><input type="checkbox" value="furniture" /> Furniture</label>
+          <label><input type="checkbox" value="toys" /> Toys</label>
+          <label><input type="checkbox" value="beauty" /> Beauty</label>
+          <label><input type="checkbox" value="sports" /> Sports</label>
+        </div>
+        <div class="container" id="product-list"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="nagapradeepkattamuri@gmail.com">Keer@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/nagapradeepkattamuri" target="_blank">Keer</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Keer. All rights reserved.
+  </footer>
+</body>
+</html>
